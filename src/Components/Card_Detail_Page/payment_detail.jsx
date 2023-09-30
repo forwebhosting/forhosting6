@@ -10,11 +10,9 @@ import {
     Image,
     Heading,
     Text ,
-    Input ,
-    FormLabel,
     Box,
     } from "@chakra-ui/react"
-import PaymentInfo from './PaymentInfo'
+// import PaymentInfo from './PaymentInfo'
     
 
 export default function Detail() {

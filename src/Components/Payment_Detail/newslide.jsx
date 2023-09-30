@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "../Rent_Page/rent.module.css";
-import Slider from "react-slick";
-import { Link } from "react-router-dom"
+// import Slider from "react-slick";
+// import { Link } from "react-router-dom"
 import {
   Image,
   Text,
-  Button,
   Box,
   TabList,
   Tab,
@@ -22,15 +21,15 @@ import { Home, School, Society, Office, Token, Propertys} from "./new";
 
 
 export default function Slides() {
-    const [selectedBg, setSelectedBg] = React.useState(1);
-    const settings = {
-      className: "center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 500
-    };
+    // const [selectedBg, setSelectedBg] = React.useState(1);
+    // const settings = {
+    //   className: "center",
+    //   centerMode: true,
+    //   infinite: true,
+    //   centerPadding: "60px",
+    //   slidesToShow: 3,
+    //   speed: 500
+    // };
   return (
     <div>
   <Box pl="100px" pr="60px" pt="20px" display="flex" justifyContent="center" alignItems="center" flexDirection="column">

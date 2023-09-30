@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React  from "react";
 import styled from "../rent.module.css";
-import Slider from "react-slick";
-import { Link } from "react-router-dom"
+// import Slider from "react-slick";
+// import { Link } from "react-router-dom"
 import { Yourinput, Studentinput  } from './Input'
 import {
   Image,
   Text,
-  Button,
-  Container,
   Box,
   TabList,
   Tab,
@@ -18,15 +16,15 @@ import {
 
 
 export default function Sliders()  {
-  const [selectedBg, setSelectedBg] = React.useState(1);
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 500
-  };
+  // const [selectedBg, setSelectedBg] = React.useState(1);
+  // const settings = {
+  //   className: "center",
+  //   centerMode: true,
+  //   infinite: true,
+  //   centerPadding: "60px",
+  //   slidesToShow: 3,
+  //   speed: 500
+  // };
 
   return (
   <div>

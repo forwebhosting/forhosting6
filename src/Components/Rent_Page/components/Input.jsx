@@ -6,19 +6,17 @@ import {
     FormLabel,
     FormErrorMessage,
     FormHelperText,
-    Box,
     Container,
     Button,
     Image,
-    Stack,
     Switch,
   } from '@chakra-ui/react'
-  import { Navigate } from "react-router-dom"
+  // import { Navigate } from "react-router-dom"
 import style from '../rent.module.css'
 
 function Yourinput() {
     const [input, setInput] = React.useState('')
-    const [isredirect, setisredirect] = React.useState(false)
+    const [setisredirect] = React.useState(false)
 
     const handleInputChange = (e) => setInput(e.target.value)
     const isError = input === ''
@@ -78,9 +76,9 @@ function Studentinput() {
     const handleInputChange = (e) => setInput(e.target.value)
     const isError = input === ''
 
-    const handleSubmit = () => {
-        // navigate("/rent/payment")
-    }
+    // const handleSubmit = () => {
+    //     // navigate("/rent/payment")
+    // }
   return (
     <div>
             <FormControl className={style.InputCon}  color="#000"  >

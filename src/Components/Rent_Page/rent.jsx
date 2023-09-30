@@ -6,12 +6,10 @@ import { Info, Paymentinfo } from './components/info';
 
 import {
   Flex,
-  Container,
-  Box,
 } from '@chakra-ui/react';
 import style from "./rent.module.css";
 import Testimonoals from './components/testimonoals';
-import { Route, Routes, Link } from 'react-router-dom';
+// import { Route, Routes, Link } from 'react-router-dom';
 
 
 //install this :- npm install react-slick --save 

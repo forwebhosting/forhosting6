@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Checkbox, Flex, Menu, MenuButton, MenuItem, MenuList, Radio, RadioGroup, Select, Stack } from "@chakra-ui/react"
+import { Button, Checkbox, Flex, Menu, MenuButton, MenuItem, MenuList, Radio, RadioGroup, Select, Stack } from "@chakra-ui/react"
 import style from "./Homepage.module.css"
 import { ChevronDownIcon } from '@chakra-ui/icons'
 

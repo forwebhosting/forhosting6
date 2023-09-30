@@ -1,18 +1,10 @@
 import React from 'react'
 import {
-  Input ,
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
-  Box,
   Container,
-  Button,
-  Image,
 } from '@chakra-ui/react'
 import Sliders from './components/slider'
-import { Routes, Route } from 'react-router-dom'
-import { Yourinput, Studentinput  } from './components/Input'
+// import { Routes, Route } from 'react-router-dom'
+// import { Yourinput, Studentinput  } from './components/Input'
 import style from './rent.module.css'
 
 export default function DetailAdd() {

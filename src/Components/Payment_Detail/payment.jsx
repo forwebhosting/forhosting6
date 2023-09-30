@@ -5,7 +5,7 @@ import Question from '../Rent_Page/components/question';
 import {Info, Paymentinfo} from '../Rent_Page/components/info';
 import style from "../Rent_Page/rent.module.css"
 import PaymentInfo from './PaymentInfo';
-import { Box, Container } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 export default function Payment() {
   return (

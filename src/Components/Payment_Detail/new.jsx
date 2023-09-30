@@ -3,12 +3,6 @@ import { Link } from "react-router-dom"
 import style from '../Rent_Page/rent.module.css'
 import { 
     Button, 
-    VStack, 
-    Container, 
-    Flex,
-    Image,
-    Heading,
-    Text ,
     Input ,
     FormLabel,
     Box,

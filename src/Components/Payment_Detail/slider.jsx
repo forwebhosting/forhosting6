@@ -1,15 +1,13 @@
-import React, { Component } from "react";
+// import React, {Component} from 'react';
+import React from 'react';
 import styled from "../Rent_Page/rent.module.css";
 import Slider from "react-slick";
-import { Link } from "react-router-dom"
 import {
   Image,
   Text,
-  Button,
   Container,
   Box,
 } from '@chakra-ui/react'
-
 
 export default function Sliders()  {
   const [selectedBg, setSelectedBg] = React.useState(1);

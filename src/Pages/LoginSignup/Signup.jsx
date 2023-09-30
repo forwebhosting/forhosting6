@@ -19,7 +19,7 @@ import {
 import { BsCheck } from "react-icons/bs";
 import signupHome from "../../Images/Login/signupHome.png";
 import { Link, Navigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addAUser, isUserLogged, loginSignupReq } from "../../Redux/LoginSignup/action";
 import whatsappIcon from "../../Images/Login/whatsappIcon.png";
 
@@ -73,7 +73,7 @@ function Signup() {
 
     React.useEffect(() => {
         dispatch(loginSignupReq(true));
-    }, []);
+    }, [dispatch]);
 
     if (!show) {
         dispatch(loginSignupReq(false));
@@ -205,6 +205,7 @@ function Signup() {
                                     <a
                                         href="https://www.nobroker.in/terms-and-condition"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         Terms & Conditions
                                     </a>
