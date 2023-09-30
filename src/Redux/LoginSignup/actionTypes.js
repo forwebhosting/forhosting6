@@ -1,0 +1,3 @@
+export const LOGINSIGNUPREQ = "LOGINSIGNUPREQ";
+export const ADDAUSER = "ADDAUSER";
+export const ISUSERLOGGED = "ISUSERLOGGED";
